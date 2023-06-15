@@ -1,0 +1,6 @@
+
+*.md5
+*.stex
+Images/.DS_Store
+players/.DS_Store
+.DS_Store
