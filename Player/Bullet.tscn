@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player/Bullet.gd" type="Script" id=1]
+[ext_resource path="res://Images/player_bullet.png" type="Texture" id=2]
+
+[node name="Bullet" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="Icon" type="Sprite" parent="."]
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 2 )
