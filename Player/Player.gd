@@ -8,10 +8,12 @@ var joystickMoveInput = Vector2.ZERO
 var joystickShootInput = Vector2.ZERO
 var velocity = Vector2.ZERO
 var can_shoot = true
+var cooldown = 0
 
 onready var Bullet = preload("res://Player/Bullet.tscn")
 
 func _process(delta):
+	
 	var input_vector = joystickMoveInput
 	
 	velocity += input_vector * ACCELERATION * delta

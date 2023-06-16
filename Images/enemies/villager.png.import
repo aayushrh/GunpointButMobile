@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/villager.png-448be7cd9400bbe232ba01a09c0c5290.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://players/machine_gun.png"
+source_file="res://Images/enemies/villager.png"
+dest_files=[ "res://.import/villager.png-448be7cd9400bbe232ba01a09c0c5290.stex" ]
+
 [params]
 
 compress/mode=0

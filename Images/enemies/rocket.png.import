@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/summoner 2.png-0878dfb4847bc5b95c15435e74848013.stex"
+path="res://.import/rocket.png-660b71bc9576f1538dd5599cf794d642.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://players/summoner 2.png"
-dest_files=[ "res://.import/summoner 2.png-0878dfb4847bc5b95c15435e74848013.stex" ]
+source_file="res://Images/enemies/rocket.png"
+dest_files=[ "res://.import/rocket.png-660b71bc9576f1538dd5599cf794d642.stex" ]
 
 [params]
 

@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/enemy.png-73fa4c32eea001662e43b05df3585ba5.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://players/sniper.png"
+source_file="res://Images/enemies/enemy.png"
+dest_files=[ "res://.import/enemy.png-73fa4c32eea001662e43b05df3585ba5.stex" ]
+
 [params]
 
 compress/mode=0

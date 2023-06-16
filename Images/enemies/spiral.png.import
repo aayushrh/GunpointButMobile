@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/spiral.png-2c919bd8f06b6066da3d47bcc869fc57.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://players/classic.png"
+source_file="res://Images/enemies/spiral.png"
+dest_files=[ "res://.import/spiral.png-2c919bd8f06b6066da3d47bcc869fc57.stex" ]
+
 [params]
 
 compress/mode=0

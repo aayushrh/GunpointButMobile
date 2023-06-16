@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/sheild.png-f73321022560ae79a3ab4bb41386d116.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://players/ninja.png"
+source_file="res://Images/enemies/sheild.png"
+dest_files=[ "res://.import/sheild.png-f73321022560ae79a3ab4bb41386d116.stex" ]
+
 [params]
 
 compress/mode=0
