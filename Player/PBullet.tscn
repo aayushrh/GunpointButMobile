@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3eq0lkfxjwka"]
+
+[ext_resource type="Script" path="res://Bullet.gd" id="1_qm33s"]
+[ext_resource type="Texture2D" uid="uid://sld50r3t7256" path="res://Images/player_bullet.png" id="1_uexy5"]
+
+[node name="PBullet" type="AnimatableBody2D"]
+script = ExtResource("1_qm33s")
+
+[node name="PlayerBullet" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_uexy5")

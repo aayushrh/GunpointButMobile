@@ -1,18 +1,15 @@
 [gd_scene load_steps=6 format=3 uid="uid://dtietxqdpb4ma"]
 
 [ext_resource type="Script" path="res://World/World.gd" id="1_wmfey"]
-[ext_resource type="PackedScene" uid="uid://iuul7tngo6od" path="res://Player/Player.tscn" id="2_6eium"]
 [ext_resource type="Script" path="res://Controls.gd" id="3_2o7x1"]
 [ext_resource type="Texture2D" uid="uid://bnb3bjj07q38j" path="res://Images/Joystick.png" id="4_aac2h"]
+[ext_resource type="PackedScene" uid="uid://cqwkre6ylbc61" path="res://Player/Classes/MachineGun.tscn" id="4_eq1h4"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ssj8n"]
 radius = 50.0
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_wmfey")
-
-[node name="Player" parent="." instance=ExtResource("2_6eium")]
-position = Vector2(636, 280)
 
 [node name="Controls" type="CanvasLayer" parent="."]
 script = ExtResource("3_2o7x1")
@@ -28,3 +25,6 @@ position = Vector2(1005, 445)
 scale = Vector2(2.5, 2.5)
 texture_normal = ExtResource("4_aac2h")
 shape = SubResource("CircleShape2D_ssj8n")
+
+[node name="MachineGun" parent="." instance=ExtResource("4_eq1h4")]
+position = Vector2(613, 329)

@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://wf7t805dap07"]
+
+[ext_resource type="Script" path="res://Player/Classes/Sniper.gd" id="1_7e3d5"]
+[ext_resource type="Texture2D" uid="uid://dmo85xco0dyyn" path="res://Images/players/sniper.png" id="2_tuhmq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jjxlp"]
+radius = 20.025
+
+[node name="Sniper" type="CharacterBody2D"]
+script = ExtResource("1_7e3d5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(2, -26)
+scale = Vector2(0.75, 0.75)
+texture = ExtResource("2_tuhmq")
+
+[node name="Firepoint" type="Marker2D" parent="."]
+position = Vector2(-15, -67)
+
+[node name="Hurtbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox"]
+shape = SubResource("CircleShape2D_jjxlp")
+
+[node name="Cooldown" type="Timer" parent="."]
+
+[node name="Line2D" type="Line2D" parent="."]
+width = 5.0
+default_color = Color(1, 0, 0, 1)
+
+[connection signal="area_entered" from="Hurtbox" to="." method="_on_hurtbox_area_entered"]
+[connection signal="timeout" from="Cooldown" to="." method="_on_cooldown_timeout"]
